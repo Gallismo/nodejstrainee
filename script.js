@@ -129,7 +129,7 @@ planetsArrayProps.map(planet => {
     planets.push(new Planet(planet.name, planet.weight, planet.distance, planet.haveRing));
 });
 planets.map((planet, index)=> {
-    document.write("1." + (index+1) + " " + planet.name + " " + planet.weight + " " + planet.distance + " " + planet.haveRing + " <br>")
+    document.write("1." + (index+1) + "  " + planet.name + " " + planet.weight + " " + planet.distance + " " + planet.haveRing + " <br>")
 });
 
 // planets.logSortByDistance() or planets.logSortByDistance(true) Sort or Sort and log
